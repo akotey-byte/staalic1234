@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double values[6]= {2,3,4,5,6,1};
+    double min = values[0];
+
+    for (int i=1; i<6; i++){
+        if(values[i]< min){
+            min = values[i];
+        }
+    }
+    cout << max << endl;
+
+
+    return 0;
+}
